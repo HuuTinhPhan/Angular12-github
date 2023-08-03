@@ -1,8 +1,6 @@
 <div class="test">
-    <H1>Hello world !!!! </H1>
-    <H2>Chúng tôi học technology </H2>
-    <H3>Chúng tôi học IT </H3>
-    <input type="text" [(ngModel)]="name" />
-    <H4>Chào bạn {{ name }}</H4>
-    <button (click)="resetName()">Reset Name</button>
+    <H4>Trái Cây</H4>
+    <div *ngFor="let trai of traiCay; let i = index">
+        <li>{{i + 1}}. {{trai}}</li>
+    </div>
 </div>
