@@ -7,7 +7,6 @@ import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     AboutComponent
   ],
   imports: [
