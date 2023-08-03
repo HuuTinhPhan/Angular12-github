@@ -1,3 +1,11 @@
-<H1>Hello world !!!! </H1>
-<H2>Chúng tôi học technology </H2>
-<H3>Chúng tôi học IT </H3>
+<div class="test">
+    <H1>Hello world !!!! </H1>
+    <H2>Chúng tôi học technology </H2>
+    <H3>Chúng tôi học IT </H3>
+    <H4>Chào bạn {{ name }}</H4>
+    <input value="{{ name }}" title="Đây là: {{ name}}" />
+    <input value="name">
+    <input [value]="name" [title]="'Đây là: '+ name"/>
+    <H5 *ngIf="age <= 18" title="{{age}} Tuổi">Bạn còn trẻ</H5>
+    <H5 *ngIf="age > 18" title="{{age}} Tuổi">Bạn đã già</H5>
+</div>

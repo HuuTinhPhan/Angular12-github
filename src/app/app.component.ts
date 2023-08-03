@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular12';
+  public name = 'HuuTinh';
+  public  age = 15;
+  constructor(){}
+  ngOnInt(): void {}
 }
